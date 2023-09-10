@@ -1,0 +1,233 @@
+/* Reset some default browser styles */
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+/*
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    padding: 20px;
+}
+*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}/*
+.menu {
+    background-color: rgb(1, 236, 253);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333; /* Text color for menu items 
+    font-weight: bold;
+}*/
+/* ... (previous CSS styles) ... */
+
+/* Style for the login button */
+.login-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    top: 10px; /* Adjust top value as needed */
+    right: 10px; /* Adjust right value as needed */
+}
+
+.login-button:hover {
+    background-color: cyan;
+    color: #333;
+}
+.college-image {
+    text-align: center; /* Center its children (the image) horizontally */
+    margin-top: 20px; /* Add some space between the menu and the image */
+}
+
+.college-image img {
+    width: 38%; /* Adjust the width as needed */
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    height: auto; /* Maintain aspect ratio */
+}
+.management-team {
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    align-items:center;
+    width: 98%;
+    right:100%;
+    margin-top: 30px; /* Add margin to create a gap */
+}
+
+.team-member {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 10px; /* Add margin to create a gap around each team member */
+}
+
+.team-member img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.team-member p {
+    margin: 5px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.team-member p1 {
+    margin: 5px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 34px; /* Adjust the font size as needed */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 90px /* Add margin at the bottom for spacing */
+}
+.footer-section {
+    display:flex;
+    justify-content: space-around;
+    background-color: #333; /* Background color for the section */
+    padding: 10px 0; /* Increase padding from top and bottom */
+    color: #fff; /* Text color */
+    align-items: center; /* Center-align items vertically */
+}
+
+.footer-item {
+    flex: 1;
+    padding: 15px; /* Increase padding for spacing */
+    text-align: center; /* Center-align text within each column */
+}
+
+.footer-item h1 {
+    font-size: 35px;
+    margin-bottom: 25px; /* Increase margin from the bottom */
+}
+.footer-item p {
+    font-size: 23px;
+    flex:1;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px; /* Increase margin from the bottom */
+    text-align: center;
+}
+/*
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px; /* Increase margin from the bottom 
+}
+*/
+.map-container {
+    text-align: center;
+    margin: 0 auto; /* Center-align map container */
+}
+
+/* Style the "View Larger Map" link */
+.map-container a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.map-container a:hover {
+    text-decoration: none;
+}
+
+*{
+    padding:0;
+    margin:0;
+    font-family: monospace;
+}
+
+ul{
+    margin: 0px;
+    list-style:none;
+    background:#5d88e4;
+}
+ul li{
+    display:inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 22px 39px;
+    color:#fff;
+    text-decoration:none;
+    text-align:center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul li ul.dropdown li{
+    display:block;
+}
+ul li ul.dropdown{
+    width:140%;
+    margin:0;
+    background:#3b61b3;
+    position:absolute;
+    z-index: 999;
+    border-radius: 3%;
+    display:none;   
+}
+ul li a:hover{
+    background:#112C66;
+}
+ul li:hover ul.dropdown{
+    display:block;
+}
